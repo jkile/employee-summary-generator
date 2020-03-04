@@ -102,7 +102,11 @@ async function init() {
             break;
         case "Finished":
             console.log(employeeArray);
-            render(employeeArray);
+            fs.writeFile(outputPath, render(employeeArray), (error) =>{
+                if(error){
+                    throw error;
+                }
+            })
             break;
     }
 
