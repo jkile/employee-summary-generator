@@ -5,4 +5,4 @@ This program allows you to enter various employees as either Engineers, Interns,
 # Demo
 
 ![Gif](./demos/Apr-10-2020-11-55-23.gif)
-![Result](./demos/Screenshot_2020-04-10 My Team.png)
+![Result](./demos/Screenshot_2020-04-10-My-Team.png)
